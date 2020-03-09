@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <title>Bootstrap Example</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      </head>
+
+<body>
+    <div class="jumbotron" style=''>
+        <h1 class="display-4">Zapis na zajecia sportowe</h1>
+    </div>
+
+    <form action="#" style='border: 1px, red,solid'>
+        <label>Imie:
+            <input type="text" id="name" name="name" >
+        </label><br>
+        <label>Nazwisko: 
+            <input type="text" id="surname" name="surname" >
+        </label><br>
+        <label>Email: 
+            <input type="text" id="email" name="email" ><br>
+        </label><br>
+        <input type="radio" id="worker" name="status" value="worker">
+        <label>Pracownik</label>
+        <input type="radio" id="student" name="status" value="student">
+        <label>Student</label><br>
+        <select id="typeOfActivity" name="typeOfActivity">
+            <option value="badminton">badminton</option>
+            <option value="siatkowka">siatkowka</option>
+            <option value="basen">basen</option>
+          </select><br>
+          <label>Uwagi: 
+              <textarea name="message" rows="10" cols="30" ></textarea>
+        </label><br>
+        <input type="submit" value="Zarejestruj">
+      </form> 
+  <script src="js/scripts.js"></script>
+</body>
+</html>
